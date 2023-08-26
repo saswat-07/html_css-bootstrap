@@ -1,0 +1,121 @@
+/* Write CSS code here */
+body{
+    margin: 0;
+}
+div.mainheader{
+    background-color: #011a37;
+    padding: 5px 0;
+}
+h1.brand{
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 500px;
+    margin: 0;
+}
+div.header-subcontainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.nav-container ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+nav.nav-container ul li a{
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+div.hero{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 20px;
+    padding: 10% 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: #047ade;
+    height: 702px;
+    overflow: hidden;
+}
+h1.hero-heading {
+    margin: 0;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+div.col-one{
+    padding: 5px 5px;
+}
+.col-one .para1{
+    color: white;
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 25px 0;
+    margin: 0;
+}
+.col-one .readmore-betn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+}
+div.col-two{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    width: 75%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px black;
+}
+.hero-headingtwo{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    line-height: 30px;
+    color: #333;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+li{
+    font-family: 'lato',sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600px;
+    color: #333;
+}
+@media only screen and (max-width:480px){
+    div.hero{
+        grid-template-columns: auto;
+        padding: 5% 10%;
+    }
+    div.col-two{
+        width: 100%;
+        margin: 50px 0;
+    }
+    div.header-subcontainer{
+        padding: 0 40px;
+    }
+    nav.nav-container ul li a{
+        padding: 5px 10px;
+    }
+}

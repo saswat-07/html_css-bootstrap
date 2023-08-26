@@ -1,0 +1,93 @@
+/* Write CSS code here */
+body{
+    background-color: #ecd7d2;
+}
+.header nav{
+    display: grid;
+    margin: 20px;
+    margin-left: 75px;
+    margin-bottom: -30px;
+    
+}
+a{
+    
+    text-transform: uppercase;
+    border: 1px solid  #451207;
+    color: yellow;
+    text-decoration: none;
+    background-color:#451207;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+}
+ #mexican{
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 120px;
+    position: relative;
+    top:90px;
+}
+img{
+    float: left;
+    height: 400px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 100px;
+    
+}
+.food-details{
+    border:1px solid  #451207 ;
+    margin: 20px;
+    background-color: #451207;
+    margin-top: 100px;
+    
+}
+.image1{
+    border-radius: 100px;
+    height: 40%;
+    width: 40%;
+    padding: 30px;
+    margin-left: 20px;
+   
+}
+.para1{
+    color: yellow;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-weight: 500;
+   
+}
+p{
+    color: #956e64;
+    margin-right: 15px;
+}
+ul{
+    display: flex;
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.image2{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+
+.para3{
+    color: #451207;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+}
+.para2{
+    float: left;
+}
+.icon{
+    margin-left: 100px;
+}
+

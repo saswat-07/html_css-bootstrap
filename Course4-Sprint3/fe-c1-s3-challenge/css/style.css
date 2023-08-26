@@ -1,0 +1,146 @@
+/* Write CSS code here */
+body{
+    background-color: #f9f4ed;
+    text-align: center;
+   
+}
+#namebox{
+    font-family: Caveat;
+    padding: 5px 25px 5px;
+    display: inline-block;
+    border-color: #444;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    font-size: 3em;
+    color: #444;
+    margin-right: 700px ;
+    margin-bottom: 20px;
+}
+#caption{
+    background-color: #c66;
+    border-radius: 5px;
+    font-family: Dosis;
+    font-size: 15pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+    
+    margin: 450px;
+    margin-top: -1px;
+    margin-bottom: 0;  
+}
+#name{
+    font-family: Dosis;
+    font-size: 60pt;
+    text-transform: uppercase;
+    color: #444;
+    padding: 5px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+p.profile{
+    color: #444;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.line1{
+    border: 7px solid #c66;
+    border-radius: 5px;
+    margin: 5px 450px;
+}
+.text-format{
+    color: #444;
+    text-transform: uppercase;
+    font-family: Dosis;
+    
+}
+.list-type1{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+   
+    
+}
+.list-type2{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+    
+}
+.list-type3{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+    
+}
+.list-type4{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 20pt;
+    
+}
+h2{
+    font-weight: lighter;
+    border-bottom: 1px solid lightgray;
+    padding: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+h3{
+    font-size: 30pt;
+    margin: 0;
+}
+
+footer{
+    color: #444;
+    font-weight: normal;
+    font-family: Bitter;
+   
+}
+
+.line2{
+    border: 7px solid #c66;
+    border-radius: 5px;
+    margin: 5px 450px;
+}
+.line3{
+    border-bottom: 1px solid lightgray;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+li{
+    border-bottom: 1px solid lightgray;
+    padding: 15px 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+    font-family: Dosis;
+}
+p{
+    color:darkgray;
+    font-family: Bitter;
+    text-transform: none;
+    margin-top: 1px;
+}
+
+
+
+

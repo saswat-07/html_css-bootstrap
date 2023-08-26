@@ -1,0 +1,288 @@
+/* Write CSS code here */
+body{
+    margin: 5px;
+    background-color: #ccc;
+}
+.header{
+    display:flex;
+    background-color: #45484a;
+    padding: 5px 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.image1{
+    width: 50px;
+    height: 50px;
+}
+#brand{
+    margin-left: -190px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    
+}
+.list1{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 500px;
+}
+.link1{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.hero-unit{
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+    background-image: url("../images/corporate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1400px;
+    }
+    
+    .hero-unit h1{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .hero-unit h2{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    position: relative;
+    top: 240px;
+    left: 200px;
+    }
+    
+    .hero-unit #head2-a{
+    margin-top: -410px;
+    margin-left: -600px;
+    transform: translateX(50%);
+    }
+    
+    .hero-unit button{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+    background-color: #45484a;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    }
+    .link1:hover{
+        text-decoration: underline;
+        color: rgb(234,229,219);
+    }
+
+    button:hover{
+        color: rgb(234,229,219);
+    }
+    
+    .hero-unit img{
+    width: 100%;
+    height: auto;
+    }
+
+.main{
+    display: flex;
+    margin-top:100px ;
+    margin-left: 100px;
+}
+.second{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.card1{
+    border: 1px ;
+    padding: 10px;
+    box-shadow: 5px 10px 10px grey;
+    background-color: rgb(234,229,219);
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+}
+.main-head3{
+    font-family: sans-serif;
+    color: #444;
+}
+.main-a{
+    color: black;
+    text-decoration-color:black ;
+}
+
+.foot-grid-container{
+    display: grid;
+    grid-template-columns: 250px 100px 100px 200px 250px;
+    grid-template-rows: 200px;
+    background-color: #26272b;
+    color: #737373;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-evenly;
+    padding: 10px;
+    column-gap: 80px;
+   
+}
+.fhead{
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.ftext{
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+
+
+.icon2{
+   border: 1px solid aliceblue;
+   background-color: aliceblue;
+   border-radius: 140px;
+   text-decoration: none;
+   color: #072339;
+   padding: 15px;
+   
+}
+ .icon1{
+   
+    position: relative;
+    right: 100px;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    margin: 50px;
+   
+    
+} 
+.head4{
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.lists{ 
+   padding: 20px;
+}
+ul{
+    padding: 0;
+}
+
+    @media only screen and (max-width: 480px) {
+        body {
+          margin: 0;
+        }
+        
+        .header {
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 10px;
+        }
+        
+        .image1 {
+          margin-right: 10px;
+        }
+        
+        #brand {
+          margin-left: 0;
+          text-align: center;
+          margin-top: 10px;
+        }
+        
+        .list1 {
+          margin-left: 0;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .link1{
+            padding: 20px;
+        }
+        
+        .hero-unit {
+            background-size: cover;
+            height: 400px;
+            }
+            .hero-unit h1 {
+                font-size: 1.5rem;
+                top: 70px;
+            }
+            
+            .hero-unit h2 {
+                font-size: 1rem;
+                top: 170px;
+                margin-right: 300px;
+            }
+            
+            .hero-unit #head2-a {
+                margin-left: 0px;
+                top: 500px;
+                left: 80px;
+
+            }
+            
+            .hero-unit button {
+                top: 380px;
+                padding: 5px 10px;
+            }
+            
+        
+        img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .main {
+          display: block;
+          margin-top: 50px;
+          margin-left: 0;
+        }
+        
+        .second {
+          width: 100%;
+          height: auto;
+        }
+        
+        .card1 {
+          width: 100%;
+          height: auto;
+          margin: 10px 0;
+        }
+        
+        .foot-grid-container {
+              grid-template-columns: 1fr;
+              grid-template-rows: auto;
+              column-gap: 0;
+        }
+        .icon1 {
+              right: 0;
+        }
+          
+        .icon {
+          margin-left: 70px;
+          
+        }
+        
+        .lists {
+          text-align: center;
+        }
+      }
+      
+
+

@@ -1,0 +1,31 @@
+/* Write CSS code here */
+body{
+    background-color: #262626;
+}
+img{
+    height: 170px;
+    width: 250px;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px;
+
+}
+h2{
+    color: whitesmoke;
+    font-family: serif;
+    padding-left: 10px;
+}
+p{
+    color: yellowgreen;
+    font-family: Fraunces;
+    padding-left: 10px;
+}

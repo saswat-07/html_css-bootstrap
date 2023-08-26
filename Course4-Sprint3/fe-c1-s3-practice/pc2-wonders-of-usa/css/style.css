@@ -1,0 +1,85 @@
+/* Write CSS code here */
+body{
+    background-color: #f4f1ec;
+    margin: 20px;
+}
+header
+{
+    margin-top: 10Px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: midnightblue;
+    text-decoration: none;
+    font-style: bold;
+    text-decoration-color: lightgoldenrodyellow;
+    text-transform: uppercase;
+}
+header img {
+    /* padding-top: 15px;
+   padding-left: 20px; */
+   margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#header{
+    margin-left: 100px;
+    margin-top:-20px ;
+}
+#header a{
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    text-decoration:none;
+    margin-left: 10px;
+}
+h1{
+    font:bold ;
+    color: #444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+figure img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+}
+figcaption{
+    margin-left: 150px;
+    font-size: 15px;
+
+}
+footer section figure{
+    margin-left: 0px;
+    text-transform: uppercase;
+}
+footer section figure img {
+    height: 20px;
+    width: 20px;
+}
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family:sans-serif ;
+    color: blue;
+    text-transform: uppercase;
+}
+footer{
+    margin-top: 10px;
+}
+footer section{
+    font: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: .9em;
+    color: #171717;
+}
